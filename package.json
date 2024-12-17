@@ -4,7 +4,7 @@
   "description": "",
   "author": "",
   "license": "MIT",
-  "url": "",
+  "url": "https://github.com/viweei/nestjs-txcos",
   "scripts": {
     "dev": "tsc --watch -p tsconfig.json",
     "build": "rimraf -rf dist && tsc -p tsconfig.json",
