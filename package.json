@@ -1,15 +1,16 @@
 {
   "name": "@viweei/nestjs-txcos",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "author": "",
   "license": "MIT",
+  "private": false,
   "url": "https://github.com/viweei/nestjs-txcos",
   "scripts": {
     "dev": "tsc --watch -p tsconfig.json",
     "build": "rimraf -rf dist && tsc -p tsconfig.json",
     "format": "prettier --write \"{lib,test}/**/*.ts\"",
-    "publish:npm": "npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "cos-nodejs-sdk-v5": "^2.14.6",
